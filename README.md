@@ -1,2 +1,2 @@
-# salah
-Prayer teaching multimedia program
+# Salah
+Prayer teaching multimedia program 

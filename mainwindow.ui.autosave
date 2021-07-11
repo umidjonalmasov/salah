@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Salah</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QTabWidget" name="main_tabWidget">
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="fajr_tab">
+         <attribute name="title">
+          <string>Fajr</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QLabel" name="fajr_label">
+              <property name="text">
+               <string>Begins at dawn, may be performed up to sunrise.</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTabWidget" name="fajr_tabWidget">
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <widget class="QWidget" name="sunnah_fajr_tab">
+               <attribute name="title">
+                <string>2 rakat sunnah</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_13">
+                <item>
+                 <widget class="QStackedWidget" name="sunnah_fajr_stackedWidget">
+                  <property name="currentIndex">
+                   <number>0</number>
+                  </property>
+                  <widget class="QWidget" name="page"/>
+                  <widget class="QWidget" name="page_23"/>
+                  <widget class="QWidget" name="page_24"/>
+                  <widget class="QWidget" name="page_25"/>
+                  <widget class="QWidget" name="page_26"/>
+                  <widget class="QWidget" name="page_27"/>
+                  <widget class="QWidget" name="page_28"/>
+                  <widget class="QWidget" name="page_29"/>
+                  <widget class="QWidget" name="page_30"/>
+                  <widget class="QWidget" name="page_31"/>
+                  <widget class="QWidget" name="page_32"/>
+                  <widget class="QWidget" name="page_35"/>
+                  <widget class="QWidget" name="page_33"/>
+                  <widget class="QWidget" name="page_34"/>
+                  <widget class="QWidget" name="page_2"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="fardh_fajr_tab">
+               <attribute name="title">
+                <string>2 rakat fardh</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_14">
+                <item>
+                 <widget class="QStackedWidget" name="fardh_fajr_stackedWidget">
+                  <widget class="QWidget" name="page_3"/>
+                  <widget class="QWidget" name="page_4"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="zuhr_tab">
+         <attribute name="title">
+          <string>Zuhr</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QLabel" name="zuhr_label">
+              <property name="text">
+               <string>From when the sun has passed the zenith, may be performed up to the time of Asr.</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTabWidget" name="zuhr_tabWidget">
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <widget class="QWidget" name="sunnah_4_zuhr_tab">
+               <attribute name="title">
+                <string>4 rakat sunnah</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_15">
+                <item>
+                 <widget class="QStackedWidget" name="sunnah_4_zuhr_stackedWidget">
+                  <widget class="QWidget" name="page_5"/>
+                  <widget class="QWidget" name="page_6"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="fardh_zuhr_tab">
+               <attribute name="title">
+                <string>4 rakat fardh</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_16">
+                <item>
+                 <widget class="QStackedWidget" name="fardh_zuhr_stackedWidget">
+                  <widget class="QWidget" name="page_7"/>
+                  <widget class="QWidget" name="page_8"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="sunnah_2_zuhr_tab">
+               <attribute name="title">
+                <string>2 rakat sunnah</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_17">
+                <item>
+                 <widget class="QStackedWidget" name="sunnah_2_zuhr_stackedWidget">
+                  <widget class="QWidget" name="page_9"/>
+                  <widget class="QWidget" name="page_10"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="asr_tab">
+         <attribute name="title">
+          <string>Asr</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QLabel" name="asr_label">
+              <property name="text">
+               <string>From when the shadow cast by an object is twice its length, may be performed up to the time of Maghrib.</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTabWidget" name="asr_tabWidget">
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <widget class="QWidget" name="fardh_asr_tab">
+               <attribute name="title">
+                <string>4 rakat fardh</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_18">
+                <item>
+                 <widget class="QStackedWidget" name="fardh_asr_stackedWidget">
+                  <widget class="QWidget" name="page_11"/>
+                  <widget class="QWidget" name="page_12"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="maghrib_tab">
+         <attribute name="title">
+          <string>Maghrib</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QLabel" name="maghrib_label">
+              <property name="text">
+               <string>Begins at sunset, may be performed up to the end of dusk.</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTabWidget" name="maghrib_tabWidget">
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <widget class="QWidget" name="fardh_maghrib_tab">
+               <attribute name="title">
+                <string>3 rakat fardh</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_19">
+                <item>
+                 <widget class="QStackedWidget" name="fardh_maghrib_stackedWidget">
+                  <widget class="QWidget" name="page_13"/>
+                  <widget class="QWidget" name="page_14"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="sunnah_maghrib_tab">
+               <attribute name="title">
+                <string>2 rakat sunnah</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_20">
+                <item>
+                 <widget class="QStackedWidget" name="sunnah_maghrib_stackedWidget">
+                  <widget class="QWidget" name="page_15"/>
+                  <widget class="QWidget" name="page_16"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="isha_tab">
+         <attribute name="title">
+          <string>Isha</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <item>
+             <widget class="QLabel" name="isha_label">
+              <property name="text">
+               <string>Begins with the night, may be performed up to dawn.</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTabWidget" name="isha_tabWidget">
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <widget class="QWidget" name="fardh_isha_tab">
+               <attribute name="title">
+                <string>4 rakat fardh</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_21">
+                <item>
+                 <widget class="QStackedWidget" name="fardh_isha_stackedWidget">
+                  <widget class="QWidget" name="page_17"/>
+                  <widget class="QWidget" name="page_18"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="sunnah_isha_tab">
+               <attribute name="title">
+                <string>2 rakat sunnah</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_22">
+                <item>
+                 <widget class="QStackedWidget" name="sunnah_isha_stackedWidget">
+                  <widget class="QWidget" name="page_19"/>
+                  <widget class="QWidget" name="page_20"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="witr_tab">
+               <attribute name="title">
+                <string>3 rakat witr wajib</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_23">
+                <item>
+                 <widget class="QStackedWidget" name="witr_stackedWidget">
+                  <widget class="QWidget" name="page_21"/>
+                  <widget class="QWidget" name="page_22"/>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="image_label">
+          <property name="text">
+           <string notr="true"/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="hide_radioButton">
+          <property name="text">
+           <string>Hide image</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="man_radioButton">
+          <property name="text">
+           <string>I am a man</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="woman_radioButton">
+          <property name="text">
+           <string>I am a woman</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="previous_pushButton">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string notr="true"/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/previous.svg</normaloff>icons/previous.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>64</width>
+              <height>64</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="next_pushButton">
+            <property name="text">
+             <string notr="true"/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/next.svg</normaloff>icons/next.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>64</width>
+              <height>64</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionPrevious"/>
+    <addaction name="actionNext"/>
+    <addaction name="separator"/>
+    <addaction name="actionSettings"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/quit.svg</normaloff>icons/quit.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionPrevious">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/previous.svg</normaloff>icons/previous.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Previous</string>
+   </property>
+  </action>
+  <action name="actionNext">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/next.svg</normaloff>icons/next.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/settings.svg</normaloff>icons/settings.svg</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/about.svg</normaloff>icons/about.svg</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
