@@ -51,8 +51,206 @@
                <layout class="QVBoxLayout" name="verticalLayout_13">
                 <item>
                  <widget class="QStackedWidget" name="sunnah_fajr_stackedWidget">
-                  <widget class="QWidget" name="page"/>
-                  <widget class="QWidget" name="page_2"/>
+                  <property name="currentIndex">
+                   <number>0</number>
+                  </property>
+                  <widget class="QWidget" name="takbir_sunnah_fajr_page">
+                   <layout class="QVBoxLayout" name="verticalLayout_24">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_3">
+                      <item>
+                       <widget class="QLabel" name="label">
+                        <property name="text">
+                         <string>The Adhan is recited first.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_4">
+                      <item>
+                       <widget class="QLabel" name="label_2">
+                        <property name="text">
+                         <string>Then the Adhan dua is recited.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pushButton_2">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_5">
+                      <item>
+                       <widget class="QLabel" name="label_3">
+                        <property name="text">
+                         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When it is time for the Prayer, perform ablution, wear clean clothes, stand in a clean place, face the qibla and make intentions. For example, I intend to recite the two rakat of the Fajr prayer for the sake of Allah. The intention can be whispered and spoken in tongues as well as inwardly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pushButton_3">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_6">
+                      <item>
+                       <widget class="QLabel" name="label_4">
+                        <property name="text">
+                         <string>The prayer begins with raising the palms of both hands towards the qibla, touching the thumb to the earlobe, and saying the takbir &quot;Allahu Akbar&quot;. Women raise their arms to the level of their shoulders.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pushButton_4">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>163</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="qiyam_1_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="ruku_1_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="qavma_1_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="sajda_1_1_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="jalsa_1_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="sajda_1_2_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="qiyam_2_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="ruku_2_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="qavma_2_sunnah_fahr_page"/>
+                  <widget class="QWidget" name="sajda_2_1_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="jalsa_2_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="sajda_2_2_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="qada_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="salam_sunnah_fajr_page"/>
                  </widget>
                 </item>
                </layout>
@@ -347,12 +545,18 @@
             <property name="enabled">
              <bool>false</bool>
             </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string notr="true"/>
             </property>
             <property name="icon">
-             <iconset>
-              <normaloff>icons/previous.svg</normaloff>icons/previous.svg</iconset>
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/previous.svg</normaloff>:/icons/previous.svg</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -364,12 +568,18 @@
           </item>
           <item>
            <widget class="QPushButton" name="next_pushButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
              <string notr="true"/>
             </property>
             <property name="icon">
-             <iconset>
-              <normaloff>icons/next.svg</normaloff>icons/next.svg</iconset>
+             <iconset resource="resources.qrc">
+              <normaloff>:/icons/next.svg</normaloff>:/icons/next.svg</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -423,8 +633,8 @@
   </widget>
   <action name="actionQuit">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/quit.svg</normaloff>icons/quit.svg</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/quit.svg</normaloff>:/icons/quit.svg</iconset>
    </property>
    <property name="text">
     <string>Quit</string>
@@ -435,8 +645,8 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>icons/previous.svg</normaloff>icons/previous.svg</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/previous.svg</normaloff>:/icons/previous.svg</iconset>
    </property>
    <property name="text">
     <string>Previous</string>
@@ -444,8 +654,8 @@
   </action>
   <action name="actionNext">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/next.svg</normaloff>icons/next.svg</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/next.svg</normaloff>:/icons/next.svg</iconset>
    </property>
    <property name="text">
     <string>Next</string>
@@ -453,8 +663,8 @@
   </action>
   <action name="actionSettings">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/settings.svg</normaloff>icons/settings.svg</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/settings.svg</normaloff>:/icons/settings.svg</iconset>
    </property>
    <property name="text">
     <string>Settings</string>
@@ -462,14 +672,16 @@
   </action>
   <action name="actionAbout">
    <property name="icon">
-    <iconset>
-     <normaloff>icons/about.svg</normaloff>icons/about.svg</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/about.svg</normaloff>:/icons/about.svg</iconset>
    </property>
    <property name="text">
     <string>About</string>
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
