@@ -52,14 +52,14 @@
                 <item>
                  <widget class="QStackedWidget" name="sunnah_fajr_stackedWidget">
                   <property name="currentIndex">
-                   <number>0</number>
+                   <number>1</number>
                   </property>
                   <widget class="QWidget" name="takbir_sunnah_fajr_page">
                    <layout class="QVBoxLayout" name="verticalLayout_24">
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_3">
                       <item>
-                       <widget class="QLabel" name="label">
+                       <widget class="QLabel" name="adhan_fajr_label">
                         <property name="text">
                          <string>The Adhan is recited first.</string>
                         </property>
@@ -69,7 +69,7 @@
                        </widget>
                       </item>
                       <item>
-                       <widget class="QPushButton" name="pushButton">
+                       <widget class="QPushButton" name="adhan_fajr_pushButton">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                           <horstretch>0</horstretch>
@@ -105,7 +105,7 @@
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_4">
                       <item>
-                       <widget class="QLabel" name="label_2">
+                       <widget class="QLabel" name="adhan_dua_fajr_label">
                         <property name="text">
                          <string>Then the Adhan dua is recited.</string>
                         </property>
@@ -115,7 +115,7 @@
                        </widget>
                       </item>
                       <item>
-                       <widget class="QPushButton" name="pushButton_2">
+                       <widget class="QPushButton" name="adhan_dua_fajr_pushButton">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                           <horstretch>0</horstretch>
@@ -145,37 +145,11 @@
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_5">
                       <item>
-                       <widget class="QLabel" name="label_3">
+                       <widget class="QLabel" name="niyah_sunnah_fajr_label">
                         <property name="text">
                          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When it is time for the Prayer, perform ablution, wear clean clothes, stand in a clean place, face the qibla and make intentions. For example, I intend to recite the two rakat of the Fajr prayer for the sake of Allah. The intention can be whispered and spoken in tongues as well as inwardly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                         </property>
                         <property name="wordWrap">
-                         <bool>true</bool>
-                        </property>
-                       </widget>
-                      </item>
-                      <item>
-                       <widget class="QPushButton" name="pushButton_3">
-                        <property name="sizePolicy">
-                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                          <horstretch>0</horstretch>
-                          <verstretch>0</verstretch>
-                         </sizepolicy>
-                        </property>
-                        <property name="text">
-                         <string/>
-                        </property>
-                        <property name="icon">
-                         <iconset resource="resources.qrc">
-                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
-                        </property>
-                        <property name="iconSize">
-                         <size>
-                          <width>48</width>
-                          <height>48</height>
-                         </size>
-                        </property>
-                        <property name="flat">
                          <bool>true</bool>
                         </property>
                        </widget>
@@ -185,7 +159,7 @@
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_6">
                       <item>
-                       <widget class="QLabel" name="label_4">
+                       <widget class="QLabel" name="takbir_sunnah_fajr_label">
                         <property name="text">
                          <string>The prayer begins with raising the palms of both hands towards the qibla, touching the thumb to the earlobe, and saying the takbir &quot;Allahu Akbar&quot;. Women raise their arms to the level of their shoulders.</string>
                         </property>
@@ -195,7 +169,7 @@
                        </widget>
                       </item>
                       <item>
-                       <widget class="QPushButton" name="pushButton_4">
+                       <widget class="QPushButton" name="takbir_sunnah_fajr_pushButton">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                           <horstretch>0</horstretch>
@@ -237,7 +211,223 @@
                     </item>
                    </layout>
                   </widget>
-                  <widget class="QWidget" name="qiyam_1_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="qiyam_1_sunnah_fajr_page">
+                   <layout class="QVBoxLayout" name="verticalLayout_25">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_7">
+                      <item>
+                       <widget class="QLabel" name="sana_sunnah_fajr_label">
+                        <property name="text">
+                         <string>&quot;Sana&quot; (&quot;Subhanakallahumma ...&quot;) is recited with the hands folded under the navel. Women tie their hands and hold them over their breasts.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="sana_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_8">
+                      <item>
+                       <widget class="QLabel" name="taavvuz_sunnah_fajr_label">
+                        <property name="text">
+                         <string>Taawwuz (&quot;Aʼuzu billahi ...&quot;) is recited.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="taavvuz_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_9">
+                      <item>
+                       <widget class="QLabel" name="basmala_sunnah_fajr_label">
+                        <property name="text">
+                         <string>Basmala (&quot;Bismillah ...&quot;) is recited.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="basmala_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_10">
+                      <item>
+                       <widget class="QLabel" name="fatiha_1_sunnah_fajr_label">
+                        <property name="text">
+                         <string>If we are reciting it alone, we are reciting Surat al-Fatiha. Then we say &quot;Amen&quot; inside.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="fatiha_1_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_11">
+                      <item>
+                       <widget class="QLabel" name="kafirun_sunnah_fajr_label">
+                        <property name="text">
+                         <string>After Surat al-Fatihah, a surah or a longer ayat or at least three short ayats, is recited.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="kafirun_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_2">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>108</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
                   <widget class="QWidget" name="ruku_1_sunnah_fajr_page"/>
                   <widget class="QWidget" name="qavma_1_sunnah_fajr_page"/>
                   <widget class="QWidget" name="sajda_1_1_sunnah_fajr_page"/>
