@@ -6,5 +6,6 @@
         <file>icons/previous.svg</file>
         <file>icons/quit.svg</file>
         <file>icons/settings.svg</file>
+        <file>icons/salah.svg</file>
     </qresource>
 </RCC>

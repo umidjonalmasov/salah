@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Salah</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/icons/salah.svg</normaloff>:/icons/salah.svg</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
