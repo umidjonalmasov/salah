@@ -14,7 +14,7 @@
    <string>Salah</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_2">
+   <layout class="QHBoxLayout" name="horizontalLayout_19">
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
@@ -52,7 +52,7 @@
                 <item>
                  <widget class="QStackedWidget" name="sunnah_fajr_stackedWidget">
                   <property name="currentIndex">
-                   <number>1</number>
+                   <number>7</number>
                   </property>
                   <widget class="QWidget" name="takbir_sunnah_fajr_page">
                    <layout class="QVBoxLayout" name="verticalLayout_24">
@@ -147,7 +147,7 @@
                       <item>
                        <widget class="QLabel" name="niyah_sunnah_fajr_label">
                         <property name="text">
-                         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When it is time for the Prayer, perform ablution, wear clean clothes, stand in a clean place, face the qibla and make intentions. For example, I intend to recite the two rakat of the Fajr prayer for the sake of Allah. The intention can be whispered and spoken in tongues as well as inwardly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string>When it is time for the Prayer, perform ablution, wear clean clothes, stand in a clean place, face the qibla and make intentions. For example, I intend to recite the two rakat of the Fajr prayer for the sake of Allah. The intention can be whispered and spoken in tongues as well as inwardly.</string>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -428,12 +428,628 @@
                     </item>
                    </layout>
                   </widget>
-                  <widget class="QWidget" name="ruku_1_sunnah_fajr_page"/>
-                  <widget class="QWidget" name="qavma_1_sunnah_fajr_page"/>
-                  <widget class="QWidget" name="sajda_1_1_sunnah_fajr_page"/>
-                  <widget class="QWidget" name="jalsa_1_sunnah_fajr_page"/>
-                  <widget class="QWidget" name="sajda_1_2_sunnah_fajr_page"/>
-                  <widget class="QWidget" name="qiyam_2_sunnah_fajr_page"/>
+                  <widget class="QWidget" name="ruku_1_sunnah_fajr_page">
+                   <layout class="QVBoxLayout" name="verticalLayout_26">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_12">
+                      <item>
+                       <widget class="QLabel" name="takbir_ruku_1_sunnah_fajr_label">
+                        <property name="text">
+                         <string>Bow down and say, &quot;Allahu Akbar&quot;. In ruku, men stand upright without bending their knees, while women bend their knees slightly. Men lean on their knees with their toes slightly open, while women hold their ankles without opening their toes.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="takbir_ruku_1_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_13">
+                      <item>
+                       <widget class="QLabel" name="azim_1_sunnat_fajr_label">
+                        <property name="text">
+                         <string>Say three times &quot;Subhana Rabbiyal Azim&quot;.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="azim_1_sunnat_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_3">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>287</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="qavma_1_sunnah_fajr_page">
+                   <layout class="QVBoxLayout" name="verticalLayout_27">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_14">
+                      <item>
+                       <widget class="QLabel" name="tasme_1_sunnah_fajr_label">
+                        <property name="text">
+                         <string>While restoring the waist say &quot;Sami'Allahu liman hamidah&quot;.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="tasme_1_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_15">
+                      <item>
+                       <widget class="QLabel" name="hamd_1_sunnah_fajr_label">
+                        <property name="text">
+                         <string>When you are fully recovered say &quot;Robbana lakal hamd.&quot;</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="hamd_1_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_4">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>294</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="sajda_1_1_sunnah_fajr_page">
+                   <layout class="QVBoxLayout" name="verticalLayout_28">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_16">
+                      <item>
+                       <widget class="QLabel" name="takbir_sajda_1_1_sunnah_fajr_label">
+                        <property name="text">
+                         <string>Saying &quot;Allahu Akbar&quot; the knees are placed on the ground, then the palms, then the nose and forehead. The elbows should not touch the ground or the hips, and all limbs, especially the toes, should face the qibla as far as possible. Women, on the other hand, prostrate with their elbows on the ground and on their hips, their bellies on their thighs.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="takbir_sajda_1_1_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_17">
+                      <item>
+                       <widget class="QLabel" name="ala_1_1_sunnah_fajr_label">
+                        <property name="text">
+                         <string>In sajda say three times  &quot;Subhana Robbiyal ʻala&quot;.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="ala_1_1_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>272</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="jalsa_1_sunnah_fajr_page">
+                   <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_18">
+                      <item>
+                       <widget class="QLabel" name="takbir_jalsa_1_sunnah_fajr_label">
+                        <property name="text">
+                         <string>Say &quot;Allahu Akbar&quot; raise your head from sajda and sit with your left foot covered, right foot straight, your toes facing the qibla, and the palms of both hands at the level of your knees.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="takbir_jalsa_1_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>84</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_6">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>320</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="sajda_1_2_sunnah_fajr_page">
+                   <layout class="QVBoxLayout" name="verticalLayout_29">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_20">
+                      <item>
+                       <widget class="QLabel" name="takbir_sajda_1_2_sunnah_fajr_label">
+                        <property name="text">
+                         <string>Say &quot;Allahu Akbar&quot; and do sajda second time.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="takbir_sajda_1_2_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_21">
+                      <item>
+                       <widget class="QLabel" name="ala_1_2_sunnah_fajr_label">
+                        <property name="text">
+                         <string>In sajda say three times  &quot;Subhana Robbiyal ʻala&quot;.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="ala_1_2_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_7">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>294</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="qiyam_2_sunnah_fajr_page">
+                   <layout class="QVBoxLayout" name="verticalLayout_30">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_22">
+                      <item>
+                       <widget class="QLabel" name="takbir_qiyam_2_sunnah_fajr_label">
+                        <property name="text">
+                         <string>Saying &quot;Allahu Akbar&quot; get up without relying on anything to recite the second rakat.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="takbir_qiyam_2_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_23">
+                      <item>
+                       <widget class="QLabel" name="basmala_2_sunnah_fajr_label">
+                        <property name="text">
+                         <string>Basmala (&quot;Bismillah ...&quot;) is recited.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="basmala_2_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_24">
+                      <item>
+                       <widget class="QLabel" name="fatiha_2_sunnah_fajr_label">
+                        <property name="text">
+                         <string>If we are reciting it alone, we are reciting Surat al-Fatiha. Then we say &quot;Amen&quot; inside.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="fatiha_2_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_25">
+                      <item>
+                       <widget class="QLabel" name="ikhlas_sunnah_fajr_label">
+                        <property name="text">
+                         <string>After Surat al-Fatihah, a surah or a longer ayat or at least three short ayats, is recited.</string>
+                        </property>
+                        <property name="wordWrap">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="ikhlas_sunnah_fajr_pushButton">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="icon">
+                         <iconset resource="resources.qrc">
+                          <normaloff>:/icons/audio.svg</normaloff>:/icons/audio.svg</iconset>
+                        </property>
+                        <property name="iconSize">
+                         <size>
+                          <width>48</width>
+                          <height>48</height>
+                         </size>
+                        </property>
+                        <property name="flat">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <spacer name="verticalSpacer_8">
+                      <property name="orientation">
+                       <enum>Qt::Vertical</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>20</width>
+                        <height>170</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
                   <widget class="QWidget" name="ruku_2_sunnah_fajr_page"/>
                   <widget class="QWidget" name="qavma_2_sunnah_fahr_page"/>
                   <widget class="QWidget" name="sajda_2_1_sunnah_fajr_page"/>

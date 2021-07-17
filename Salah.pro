@@ -19,7 +19,10 @@ FORMS += \
     mainwindow.ui
 
 TRANSLATIONS += \
-    translations/Salah_en_US.ts
+    translations/Salah_en_US.ts \
+    translations/Salah_ru_RU.ts \
+    translations/Salah_uz_UZ.ts
+
 CONFIG += lrelease
 CONFIG += embed_translations
 

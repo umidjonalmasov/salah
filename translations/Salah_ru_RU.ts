@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.1" language="ru_RU">
 <context>
     <name>MainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>Salah</source>
-        <translation type="unfinished"></translation>
+        <translation>Salah</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="27"/>
         <source>Fajr</source>
-        <translation type="unfinished"></translation>
+        <translatorcomment>Фаджр</translatorcomment>
+        <translation></translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="35"/>
@@ -24,7 +25,7 @@
         <location filename="../mainwindow.ui" line="1228"/>
         <location filename="../mainwindow.ui" line="1282"/>
         <source>2 rakat sunnah</source>
-        <translation type="unfinished"></translation>
+        <translation>2 ракяата сунны</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="64"/>
@@ -123,12 +124,12 @@
     <message>
         <location filename="../mainwindow.ui" line="1066"/>
         <source>2 rakat fardh</source>
-        <translation type="unfinished"></translation>
+        <translation>2 ракяата фарда</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1085"/>
         <source>Zuhr</source>
-        <translation type="unfinished"></translation>
+        <translation>Зухр</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1093"/>
@@ -138,19 +139,19 @@
     <message>
         <location filename="../mainwindow.ui" line="1107"/>
         <source>4 rakat sunnah</source>
-        <translation type="unfinished"></translation>
+        <translation>4 ракяата сунны</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1120"/>
         <location filename="../mainwindow.ui" line="1174"/>
         <location filename="../mainwindow.ui" line="1269"/>
         <source>4 rakat fardh</source>
-        <translation type="unfinished"></translation>
+        <translation>4 ракяата фарда</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1152"/>
         <source>Asr</source>
-        <translation type="unfinished"></translation>
+        <translation>Аср</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1160"/>
@@ -160,7 +161,7 @@
     <message>
         <location filename="../mainwindow.ui" line="1193"/>
         <source>Maghrib</source>
-        <translation type="unfinished"></translation>
+        <translation>Магриб</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1201"/>
@@ -170,12 +171,12 @@
     <message>
         <location filename="../mainwindow.ui" line="1215"/>
         <source>3 rakat fardh</source>
-        <translation type="unfinished"></translation>
+        <translation>3 ракяата фарда</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1247"/>
         <source>Isha</source>
-        <translation type="unfinished"></translation>
+        <translation>Иша</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1255"/>
@@ -185,62 +186,62 @@
     <message>
         <location filename="../mainwindow.ui" line="1295"/>
         <source>3 rakat witr wajib</source>
-        <translation type="unfinished"></translation>
+        <translation>3 ракяата витр ваджиба</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1326"/>
         <source>Hide image</source>
-        <translation type="unfinished"></translation>
+        <translation>Скрыть изображение</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1336"/>
         <source>I am a man</source>
-        <translation type="unfinished"></translation>
+        <translation>Я мужчина</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1343"/>
         <source>I am a woman</source>
-        <translation type="unfinished"></translation>
+        <translation>Я женщина</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1417"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1423"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Правка</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1432"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Справка</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1446"/>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1458"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Предыдущий</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1467"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Следующий</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1476"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1485"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>О программе</translation>
     </message>
 </context>
 </TS>
