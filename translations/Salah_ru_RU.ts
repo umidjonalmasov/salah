@@ -11,8 +11,7 @@
     <message>
         <location filename="../mainwindow.ui" line="27"/>
         <source>Fajr</source>
-        <translatorcomment>Фаджр</translatorcomment>
-        <translation></translation>
+        <translation>Фаджр</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="35"/>
@@ -21,9 +20,9 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="49"/>
-        <location filename="../mainwindow.ui" line="1133"/>
-        <location filename="../mainwindow.ui" line="1228"/>
-        <location filename="../mainwindow.ui" line="1282"/>
+        <location filename="../mainwindow.ui" line="1229"/>
+        <location filename="../mainwindow.ui" line="1324"/>
+        <location filename="../mainwindow.ui" line="1378"/>
         <source>2 rakat sunnah</source>
         <translation>2 ракяата сунны</translation>
     </message>
@@ -82,6 +81,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="478"/>
+        <location filename="../mainwindow.ui" line="1100"/>
         <source>Say three times &quot;Subhana Rabbiyal Azim&quot;.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -122,124 +122,129 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1066"/>
+        <location filename="../mainwindow.ui" line="1060"/>
+        <source>Saying &quot;Allahu akbar&quot; bow to ruku.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1162"/>
         <source>2 rakat fardh</source>
         <translation>2 ракяата фарда</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1085"/>
+        <location filename="../mainwindow.ui" line="1181"/>
         <source>Zuhr</source>
         <translation>Зухр</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1093"/>
+        <location filename="../mainwindow.ui" line="1189"/>
         <source>From when the sun has passed the zenith, may be performed up to the time of Asr.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1107"/>
+        <location filename="../mainwindow.ui" line="1203"/>
         <source>4 rakat sunnah</source>
         <translation>4 ракяата сунны</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1120"/>
-        <location filename="../mainwindow.ui" line="1174"/>
-        <location filename="../mainwindow.ui" line="1269"/>
+        <location filename="../mainwindow.ui" line="1216"/>
+        <location filename="../mainwindow.ui" line="1270"/>
+        <location filename="../mainwindow.ui" line="1365"/>
         <source>4 rakat fardh</source>
         <translation>4 ракяата фарда</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1152"/>
+        <location filename="../mainwindow.ui" line="1248"/>
         <source>Asr</source>
         <translation>Аср</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1160"/>
+        <location filename="../mainwindow.ui" line="1256"/>
         <source>From when the shadow cast by an object is twice its length, may be performed up to the time of Maghrib.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1193"/>
+        <location filename="../mainwindow.ui" line="1289"/>
         <source>Maghrib</source>
         <translation>Магриб</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1201"/>
+        <location filename="../mainwindow.ui" line="1297"/>
         <source>Begins at sunset, may be performed up to the end of dusk.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1215"/>
+        <location filename="../mainwindow.ui" line="1311"/>
         <source>3 rakat fardh</source>
         <translation>3 ракяата фарда</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1247"/>
+        <location filename="../mainwindow.ui" line="1343"/>
         <source>Isha</source>
         <translation>Иша</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1255"/>
+        <location filename="../mainwindow.ui" line="1351"/>
         <source>Begins with the night, may be performed up to dawn.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1295"/>
+        <location filename="../mainwindow.ui" line="1391"/>
         <source>3 rakat witr wajib</source>
         <translation>3 ракяата витр ваджиба</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1326"/>
+        <location filename="../mainwindow.ui" line="1422"/>
         <source>Hide image</source>
         <translation>Скрыть изображение</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1336"/>
+        <location filename="../mainwindow.ui" line="1432"/>
         <source>I am a man</source>
         <translation>Я мужчина</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1343"/>
+        <location filename="../mainwindow.ui" line="1439"/>
         <source>I am a woman</source>
         <translation>Я женщина</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1417"/>
+        <location filename="../mainwindow.ui" line="1513"/>
         <source>File</source>
         <translation>Файл</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1423"/>
+        <location filename="../mainwindow.ui" line="1519"/>
         <source>Edit</source>
         <translation>Правка</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1432"/>
+        <location filename="../mainwindow.ui" line="1528"/>
         <source>Help</source>
         <translation>Справка</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1446"/>
+        <location filename="../mainwindow.ui" line="1542"/>
         <source>Quit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1458"/>
+        <location filename="../mainwindow.ui" line="1554"/>
         <source>Previous</source>
         <translation>Предыдущий</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1467"/>
+        <location filename="../mainwindow.ui" line="1563"/>
         <source>Next</source>
         <translation>Следующий</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1476"/>
+        <location filename="../mainwindow.ui" line="1572"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1485"/>
+        <location filename="../mainwindow.ui" line="1581"/>
         <source>About</source>
         <translation>О программе</translation>
     </message>
